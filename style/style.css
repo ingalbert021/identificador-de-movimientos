@@ -1,0 +1,68 @@
+
+
+*{
+		font-family: 'Nerko One', cursive;
+}
+
+body
+{
+background:url(../IMG/bg.jpg)no-repeat;
+background-size: 100%;
+}
+
+.row img{
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #CCCCCC;
+}
+
+main{
+	
+	width: 600px;
+	height: 350px;
+	margin: 0px auto;
+}
+.p5Canvas{
+	
+	margin: 0px auto;
+ border-radius: 5px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ box-shadow: 2px 2px 2px 2px #CCCCCC;
+}
+
+
+
+@media(max-width: 1282px){
+	.row img
+{
+	width: 65px;
+	height: 65px;
+
+}
+
+@media(max-width: 700px){
+	.row img
+{
+	width: 35px;
+	height: 35px;
+
+}
+
+}
+@media(max-width: 700px){
+.p5Canvas{
+	width: 350px !important;
+	height: 150px !important;
+}
+main{
+	
+	width: 400px;
+	height: 190px;
+	margin: 0px auto;
+}
+
+
+}
+
